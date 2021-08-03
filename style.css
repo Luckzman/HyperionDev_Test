@@ -1,0 +1,30 @@
+.brand-color {
+  color: #f1632b;
+}
+.bg-brand-color {
+  background-color: #f1632b;
+}
+.brand-btn-outline {
+  border: 1px solid #f1632b;
+  color: #f1632b;
+  background-color: #fff;
+}
+.text-bold {
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+.num {
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
